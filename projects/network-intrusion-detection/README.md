@@ -102,6 +102,11 @@ Comprehensive performance assessment using:
 2. **Feature importance analysis** revealed that specific network flow characteristics (packet size variance, flow duration, protocol type) were most indicative of attacks.
 3. The model successfully **detected port scan attacks with over 99% accuracy**, validating the ML approach for NIDS.
 
+![NIDS Project Code Structure](assets/images/nids/eg1.png)
+![NIDS Project Code Structure](assets/images/nids/eg2.png)
+![NIDS Project Code Structure](assets/images/nids/eg3.png)
+*Project structure showing main scripts and results*
+
 ## Technical Implementation
 
 ### Project Structure
