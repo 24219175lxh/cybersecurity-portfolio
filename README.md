@@ -48,6 +48,7 @@ I aspire to become a Security Analyst, focusing on threat detection and vulnerab
 
 ## Contact Information
 - **Email:** 24219175@siswa.um.edu.my
+- **LinkedIn**https://www.linkedin.com/in/xinhui-liu-a0b9b63a6/
 - **GitHub:** https://github.com/24219175lxh
 
 *Connect with me to discuss cybersecurity opportunities!*
