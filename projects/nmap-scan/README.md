@@ -19,3 +19,42 @@ The primary goals of this engagement were:
     *   **Attacker Machine:** Kali Linux 2024.1.
     *   **Target Machine:** A deliberately configured Ubuntu 22.04 server with several services intentionally left in a vulnerable state for educational purposes.
 *   **Vulnerability Database:** `Exploit-DB`, `NIST NVD` - Cross-referenced for known CVEs.
+
+
+## 3. Methodology / Steps
+The assessment followed a structured approach:
+
+### Phase 1: Host Discovery
+Used Nmap's `-sn` (Ping Scan) flag to perform a sweep of the subnet (`192.168.1.0/24`) without port scanning, to identify which hosts were online.
+bash
+sudo nmap -sn 192.168.1.0/24
+
+### Phase 2: Port Scanning & Service Detection
+Upon identifying the target host (`192.168.1.105`), performed a comprehensive port scan.
+*   **TCP SYN Stealth Scan (`-sS`):** A fast and relatively stealthy scan to find open TCP ports.
+*   **Service Version Detection (`-sV`):** Probes open ports to determine the exact application name and version number.
+sudo nmap -sS -sV -O -p- 192.168.1.105 -oA nmap_full_scan
+bash
+sudo nmap -sS -sV -O -p- 192.168.1.105 -oA nmap_full_scan
+
+### Phase 3: Vulnerability Correlation
+Took the specific service versions (e.g., `OpenSSH 8.9p1`, `Apache httpd 2.4.52`) from the Nmap output and searched for associated Common Vulnerabilities and Exposures (CVEs) using online databases.
+
+## 4. Key Findings & Evidence
+The scan revealed several points of interest on the target:
+
+*   **Port 22/TCP - OpenSSH 8.9p1:** While this is a recent version, the service was configured to allow password-based authentication, which is susceptible to brute-force attacks if weak credentials are used.
+*   **Port 80/TCP - Apache httpd 2.4.52:** The web server was running a default installation page. Version 2.4.52 is associated with **CVE-2022-31813**, a medium-severity vulnerability related to HTTP request smuggling under specific configurations.
+*   **Port 139,445/TCP - Samba smbd 4.15.13:** The presence of SMB shares could be a significant vector for lateral movement if not properly secured.
+
+**Screenshot: Nmap Scan Output Snippet**
+![Nmap Scan Results](assets/images/nmap_scan_results.png)
+*An excerpt from the detailed Nmap scan showing open ports and service versions.*
+
+## 5. Initial Analysis & Reflection
+*   **Impact:** The discovered open services represent a potential attack surface. The Apache vulnerability (CVE-2022-31813), while requiring specific conditions to exploit, highlights the importance of patching and secure configuration.
+*   **Learning Outcome:** This exercise reinforced the practical application of network scanning, the importance of service fingerprinting, and the process of linking technical findings to documented vulnerabilities. It also underscored that "no news is not good news"—a lack of critical vulnerabilities does not equate to security.
+*   **Next Steps:** Suggested immediate actions include:
+    1.  Disabling password authentication for SSH in favor of key-based auth.
+    2.  Applying the latest security patches to the Apache server.
+    3.  Auditing the Samba share permissions and access controls.
