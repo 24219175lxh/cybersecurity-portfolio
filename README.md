@@ -13,7 +13,6 @@ I am actively building my expertise through hands-on labs, capture-the-flag (CTF
 ### Programming & Scripting
 **Proficient:** C, C++, C#, Java, Python.
 *   Utilized Python extensively for scripting security tools, automating tasks, and data analysis.
-*   
 ### Project Experience
 1. [Network Reconnaissance with Nmap](projects/nmap-scan/) - Host discovery and vulnerability assessment
 2. [ML-Based Intrusion Detection System](projects/network-intrusion-detection/) - Machine learning approach to threat detection
