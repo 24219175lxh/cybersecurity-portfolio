@@ -21,3 +21,10 @@ I am actively building my expertise through hands-on labs, capture-the-flag (CTF
 ### Research & Analysis
 *   **Academic Research:** Trained in systematic research methodologies through **WOX7001 Research Methodology**.
 *   **Analytical Thinking:** Ability to break down complex security problems, analyze logs, and investigate incidents.
+
+### Cybersecurity & Network Security
+*   **Penetration Testing Foundations:** Understanding of methodologies, reconnaissance, vulnerability scanning, and exploitation frameworks.
+*   **Vulnerability Analysis:** Studying common vulnerabilities (e.g., OWASP Top 10) and their exploitation mechanisms.
+*   **Network Traffic Analysis:** Learning to use tools like Wireshark to inspect and interpret network protocols.
+*   **Defensive Concepts:** Principles of secure network architecture, firewall configurations, and intrusion detection.
+*   **Courses:** WQE7001 Cyber Security, WQE7002 Advanced Network Security Programming, WQE7007 Network Technology & Security, WQE7011 Advanced Computer Penetration & Defence.
