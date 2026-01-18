@@ -28,3 +28,22 @@ I am actively building my expertise through hands-on labs, capture-the-flag (CTF
 *   **Network Traffic Analysis:** Learning to use tools like Wireshark to inspect and interpret network protocols.
 *   **Defensive Concepts:** Principles of secure network architecture, firewall configurations, and intrusion detection.
 *   **Courses:** WQE7001 Cyber Security, WQE7002 Advanced Network Security Programming, WQE7007 Network Technology & Security, WQE7011 Advanced Computer Penetration & Defence.
+
+## Certifications and Training
+- Currently pursuing: **CompTIA Security+** (Expected completion: 2026)
+- **University of Malaya Cybersecurity Master's Program** (2024-2026)
+  - WQE7001: Cyber Security
+  - WQE7002: Advanced Network Security Programming
+  - WQE7011: Advanced Computer Penetration and Defence
+
+## Learning Journey
+My journey in cybersecurity has been transformative. Through WQE7001, I've gained practical experience with essential tools like Nmap and Wireshark. The most challenging aspect has been understanding advanced penetration testing methodologies, but hands-on projects have significantly improved my skills. I plan to continue practicing on platforms like TryHackMe to master these concepts.
+
+## Career Objective
+I aspire to become a Security Analyst, focusing on threat detection and vulnerability assessment. My goal is to contribute to building resilient security systems and eventually specialize in penetration testing or security architecture.
+
+## Contact Information
+- **Email:** 24219175@siswa.um.edu.my
+- **GitHub:** https://github.com/24219175lxh
+
+*Connect with me to discuss cybersecurity opportunities!*
