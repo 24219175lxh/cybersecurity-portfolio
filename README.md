@@ -14,13 +14,6 @@ I am actively building my expertise through hands-on labs, capture-the-flag (CTF
 **Proficient:** C, C++, C#, Java, Python.
 *   Utilized Python extensively for scripting security tools, automating tasks, and data analysis.
 
-### Cybersecurity & Network Security
-*   **Penetration Testing Foundations:** Understanding of methodologies, reconnaissance, vulnerability scanning, and exploitation frameworks.
-*   **Vulnerability Analysis:** Studying common vulnerabilities (e.g., OWASP Top 10) and their exploitation mechanisms.
-*   **Network Traffic Analysis:** Learning to use tools like Wireshark to inspect and interpret network protocols.
-*   **Defensive Concepts:** Principles of secure network architecture, firewall configurations, and intrusion detection.
-*   **Courses:** WQE7001 Cyber Security, WQE7002 Advanced Network Security Programming, WQE7007 Network Technology & Security, WQE7011 Advanced Computer Penetration & Defence.
-
 ### Tools & Platforms
 *   **Security Tools:** Actively learning Nmap, Wireshark, Metasploit, Burp Suite.
 *   **Development/Platforms:** Git, GitHub, VirtualBox/VMware, Linux command line.
